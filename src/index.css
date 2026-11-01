@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #102B49;
+  --color-secondary: #D3BC78;
+  --color-bg-ivory: #F5F2E9;
+  --color-white: #FFFFFF;
+  --color-text: #263746;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--color-bg-ivory);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+
+p, span, input, textarea, button {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-ivory);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
